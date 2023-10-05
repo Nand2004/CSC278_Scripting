@@ -1,0 +1,26 @@
+header img {
+    width: 100%;
+}
+
+div[name="inline-images"] {
+    text-align: center;
+    margin-left: 0%;
+    max-width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: no;
+}
+
+div[name="inline-images"] a {
+    flex: 1;
+    text-align: center;
+
+}
+
+div[name="inline-images"] img {
+    max-width: 100%;
+    /* Adjust this as needed */
+    height: auto;
+    width: 100%;
+}
